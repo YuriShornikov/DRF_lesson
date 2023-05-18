@@ -1,0 +1,21 @@
+GET http://localhost:8000/avs/
+
+###
+
+POST http://localhost:8000/avs/
+Content-Type: application/json
+Authorization: Token f6c002b655f6b8c12d67b1cb8a67233046790835
+
+{
+    "text": "Объявление"
+}
+
+###
+
+DELETE http://localhost:8000/avs/4/
+Authorization: Token 7e47a5bcd1f7d79121bf3cc9439338d2c92a060c
+
+###
+
+GET http://localhost:8000/avs/4/
+Authorization: Token 7e47a5bcd1f7d79121bf3cc9439338d2c92a060c
